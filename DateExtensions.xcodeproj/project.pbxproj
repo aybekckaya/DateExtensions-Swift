@@ -15,6 +15,8 @@
 		A3B3E6EE1C4BC74200B0E6A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3B3E6EC1C4BC74200B0E6A4 /* LaunchScreen.storyboard */; };
 		A3B3E6F91C4BC74200B0E6A4 /* DateExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3E6F81C4BC74200B0E6A4 /* DateExtensionsTests.swift */; };
 		A3B3E7041C4BC74200B0E6A4 /* DateExtensionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3E7031C4BC74200B0E6A4 /* DateExtensionsUITests.swift */; };
+		A3B3E7131C4BCC3000B0E6A4 /* Date+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3E7121C4BCC3000B0E6A4 /* Date+extensions.swift */; };
+		A3B3E7141C4BCC3000B0E6A4 /* Date+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B3E7121C4BCC3000B0E6A4 /* Date+extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		A3B3E6FF1C4BC74200B0E6A4 /* DateExtensionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateExtensionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3B3E7031C4BC74200B0E6A4 /* DateExtensionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionsUITests.swift; sourceTree = "<group>"; };
 		A3B3E7051C4BC74200B0E6A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3B3E7121C4BCC3000B0E6A4 /* Date+extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 		A3B3E6DF1C4BC74200B0E6A4 /* DateExtensions */ = {
 			isa = PBXGroup;
 			children = (
+				A3B3E7111C4BC7B300B0E6A4 /* DateExtension */,
 				A3B3E6E01C4BC74200B0E6A4 /* AppDelegate.swift */,
 				A3B3E6E21C4BC74200B0E6A4 /* ViewController.swift */,
 				A3B3E6E41C4BC74200B0E6A4 /* Main.storyboard */,
@@ -126,6 +130,14 @@
 				A3B3E7051C4BC74200B0E6A4 /* Info.plist */,
 			);
 			path = DateExtensionsUITests;
+			sourceTree = "<group>";
+		};
+		A3B3E7111C4BC7B300B0E6A4 /* DateExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A3B3E7121C4BCC3000B0E6A4 /* Date+extensions.swift */,
+			);
+			name = DateExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B3E6E31C4BC74200B0E6A4 /* ViewController.swift in Sources */,
+				A3B3E7131C4BCC3000B0E6A4 /* Date+extensions.swift in Sources */,
 				A3B3E6E91C4BC74200B0E6A4 /* DateExtensions.xcdatamodeld in Sources */,
 				A3B3E6E11C4BC74200B0E6A4 /* AppDelegate.swift in Sources */,
 			);
@@ -270,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3B3E6F91C4BC74200B0E6A4 /* DateExtensionsTests.swift in Sources */,
+				A3B3E7141C4BCC3000B0E6A4 /* Date+extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +502,7 @@
 				A3B3E70A1C4BC74200B0E6A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3B3E70B1C4BC74200B0E6A4 /* Build configuration list for PBXNativeTarget "DateExtensionsTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +511,7 @@
 				A3B3E70D1C4BC74200B0E6A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A3B3E70E1C4BC74200B0E6A4 /* Build configuration list for PBXNativeTarget "DateExtensionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +520,7 @@
 				A3B3E7101C4BC74200B0E6A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
